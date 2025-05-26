@@ -1,0 +1,72 @@
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  background-color: #a50034;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero .logo {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #a50034;
+  margin-top: 40px;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #a50034;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #a50034;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
